@@ -1,0 +1,11 @@
+/*
+ * Parrot v1.0.0
+ * Copyright 2015, Hexagon Safety & Infrastructure
+ */
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 100/5px;
+}
