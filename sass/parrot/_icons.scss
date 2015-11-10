@@ -1,0 +1,22 @@
+@font-face {
+	font-family: 'Parrot Hexacons';
+	src: url(#{$icon-font-path}#{$icon-font-name}.eot);
+	src: url(#{$icon-font-path}#{$icon-font-name}.eot?#iefix) format('embedded-opentype'),
+			url(#{$icon-font-path}#{$icon-font-name}.woff) format('woff'),
+			url(#{$icon-font-path}#{$icon-font-name}.ttf) format('ttf'),
+			url(#{$icon-font-path}#{$icon-font-name}.svg) format('svg');
+}
+
+.hexacon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Parrot Hexacons';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.hexacon-test { &:before { content: "\e900"; } }

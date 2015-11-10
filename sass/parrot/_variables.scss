@@ -30,6 +30,16 @@ $hex-black:							#000000 !default;
 // ----------------------------------------
 // ## Fonts, headings, body text, and more.
 
+// Iconography
+// ----------------------------------------
+// ## Location and filename for icon font.
+
+// ** path to font files
+$icon-font-path:					"../fonts/";
+
+// ** filename for all font files
+$icon-font-name:					"parrot-hexacons";
+
 // Media Queries
 // ----------------------------------------
 // ## Breakpoints when layout will change.
@@ -49,4 +59,3 @@ $grid-columns:						12 !default;
 // ----------------------------------------
 // ## Columns, rows, padding, and more.
 $table-padding:						0.5em 1em !default;
-

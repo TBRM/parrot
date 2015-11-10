@@ -219,6 +219,27 @@ th {
   padding: 0;
 }
 
+@font-face {
+  font-family: 'Parrot Hexacons';
+  src: url(../fonts/parrot-hexacons.eot);
+  src: url(../fonts/parrot-hexacons.eot?#iefix) format("embedded-opentype"), url(../fonts/parrot-hexacons.woff) format("woff"), url(../fonts/parrot-hexacons.ttf) format("ttf"), url(../fonts/parrot-hexacons.svg) format("svg");
+}
+.hexacon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Parrot Hexacons';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hexacon-test:before {
+  content: "\e900";
+}
+
 table th, table td {
   padding: 0.5em 1em;
 }
