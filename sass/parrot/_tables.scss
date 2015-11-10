@@ -1,11 +1,26 @@
 table {
+	th, td {
+		padding: $table-padding;
+	}
+}
+
+// Basic Table
+// ----------------------------------------
+// ## Adds padding and borders to table elements with emphasis on header.
+
+.parrot-table {
 	border-collapse: collapse;
-}
+    border-spacing: 0;
+    empty-cells: show;
+    border: 1px solid $hex-light-gray;
 
-tr {
+    thead {
+    	background-color: $hex-light-gray;
+    	color: $hex-black;
+    	text-align: left;
+    }
 
-}
-
-td {
-	padding: 100/5px;
+    th, td {
+    	border-bottom: 1px solid $hex-light-gray;
+    }
 }

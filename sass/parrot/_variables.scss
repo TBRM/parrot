@@ -28,7 +28,7 @@ $hex-black:							#000000 !default;
 
 // Typography
 // ----------------------------------------
-// ## Style and appearance of headings, body text, and more.
+// ## Fonts, headings, body text, and more.
 
 // Media Queries
 // ----------------------------------------
@@ -44,3 +44,9 @@ $grid-columns:						12 !default;
 // Containers
 // ----------------------------------------
 // ## Width of container at specific screen sizes.
+
+// Tables
+// ----------------------------------------
+// ## Columns, rows, padding, and more.
+$table-padding:						0.5em 1em !default;
+
