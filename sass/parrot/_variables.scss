@@ -30,19 +30,35 @@ $hex-black:							#000000 !default;
 // ----------------------------------------
 // ## Fonts, headings, body text, and more.
 
+// ** default font settings
+$font-family-default:				"Helvetica Neue",Helvetica,Arial,sans-serif !default;
+$font-size-default:					1.0rem !default;
+$font-color-default:				$hex-black !default;
+$line-height-default:				1.6 !default;
+
+// ** headings font settings
+$font-size-h1:						$font-size-default * 3.50 !default;
+$font-size-h2:						$font-size-default * 3.00;
+$font-size-h3:						$font-size-default * 2.50;
+$font-size-h4:						$font-size-default * 2.00;
+$font-size-h5:						$font-size-default * 1.50;
+$font-size-h6:						$font-size-default;
+
 // Iconography
 // ----------------------------------------
 // ## Location and filename for icon font.
 
 // ** path to font files
-$icon-font-path:					"../fonts/";
+$icon-font-path:					"../fonts/" !default;
 
 // ** filename for all font files
-$icon-font-name:					"parrot-hexacons";
+$icon-font-name:					"parrot-hexacons" !default;
 
 // Media Queries
 // ----------------------------------------
 // ## Breakpoints when layout will change.
+
+
 
 // Grid
 // ----------------------------------------
