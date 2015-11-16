@@ -1,5 +1,5 @@
 # Parrot
-https://img.shields.io/badge/sass-3.4.19-cf649a.svg https://img.shields.io/badge/compass-1.0.3-fb292d.svg
+[https://img.shields.io/badge/sass-3.4.19-cf649a.svg](http://sass-lang.com/) [https://img.shields.io/badge/compass-1.0.3-fb292d.svg](http://compass-style.org/)
 
 CSS Framework
 
