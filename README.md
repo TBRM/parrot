@@ -1,7 +1,7 @@
 # Parrot
 ![http://sass-lang.com/](https://img.shields.io/badge/sass-3.4.19-cf649a.svg) ![http://compass-style.org/](https://img.shields.io/badge/compass-1.0.3-fb292d.svg)
 
-Parrot is a front-end framework used to quickly stand-up web projects. Parrot was created by (James Parkes)[https://twitter.com/parkesrjames], Tri-An Le, and Nick Smith.
+Parrot is a front-end framework used to quickly stand-up web projects. Parrot was created by [James Parkes](https://twitter.com/parkesrjames), Tri-An Le, and Nick Smith.
 
 ## What's included
 
