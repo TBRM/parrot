@@ -13,17 +13,20 @@
 }
 
 // Branding logo
-.parrot-header-brand {
+.parrot-header-logo {
+	display: block;
 	float: right;
-	font-size: $font-size-h6;
+	width: $logo-width;
+	height: $logo-height;
+	background: url(#{$image-path}hexagon-intergraph-logo-white.svg) no-repeat left top;
+	background-size: $logo-width;
 
   &:hover,
   &:focus {
     text-decoration: none;
   }
 
-  > img {
-    display: block;
-  }
 }
+
+// Header Variations
 
