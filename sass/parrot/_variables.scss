@@ -58,7 +58,16 @@ $icon-font-name:					"parrot-hexacons" !default;
 // ----------------------------------------
 // ## Breakpoints when layout will change.
 
+// ** minimum sizes for devices
+$screen-phone-min:					480px !default;
+$screen-phablet-min:				600px !default;
+$screen-tablet-min:					768px !default;
+$screen-desktop-min:				1200px !default;
 
+// ** max sizes for devices
+$screen-phone-max:					($screen-phablet - 1) !default;
+$screen-phablet-max:				($screen-tablet - 1) !default;
+$screen-tablet-max:					($screen-desktop - 1) !default;
 
 // Grid
 // ----------------------------------------
@@ -67,9 +76,17 @@ $icon-font-name:					"parrot-hexacons" !default;
 // ** number of columns in the grid
 $grid-columns:						12 !default;
 
+// ** spacing between columns
+$grid-gutter-width:					24px !default;
+
 // Containers
 // ----------------------------------------
 // ## Width of container at specific screen sizes.
+
+// ** container sizes for devices
+$container-phablet:					(560px + $grid-gutter-width) !default;
+$container-tablet:					(728px + $grid-gutter-width) !default;
+$container-desktop:					(1160px + $grid-gutter-width) !default;										
 
 // Tables
 // ----------------------------------------
