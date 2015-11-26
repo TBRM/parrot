@@ -1,0 +1,32 @@
+//
+// Headers
+// --------------------------------------------------
+
+// Base header class
+.parrot-header {
+	padding: $header-padding;
+	margin-bottom: $header-margin-bottom;
+	background-color: $hex-si-dark-blue;
+	min-height: $header-height; // Ensure a header always shows (e.g., without a header in collapsed mode)
+	border: 1px solid transparent;
+	position: relative;
+}
+
+// Branding logo
+.parrot-header-logo {
+	display: block;
+	float: right;
+	width: $logo-width;
+	height: $logo-height;
+	background: url(#{$image-path}hexagon-intergraph-logo-white.svg) no-repeat left top;
+	background-size: $logo-width;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+}
+
+// Header Variations
+
