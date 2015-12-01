@@ -1,0 +1,36 @@
+@mixin make-row() {
+	margin-left: ceil(($grid-gutter-width / -2));
+	margin-right: floor(($grid-gutter-width / -2));
+	@include clearfix;
+}
+
+@mixin make-grid-columns($index) {
+	.columns-#{$index} {
+		position: relative;
+		float: left;
+		min-height: 1px;
+		padding-left: ceil(($grid-gutter-width / 2));
+		padding-right: floor(($grid-gutter-width / 2));
+	}
+}
+
+@mixin calculate-grid-column($index) {
+	.columns-#{$index} {
+		width: 100%;
+
+		@media (min-width: $screen-phablet) {
+			width: percentage(($index / $grid-columns));
+		}
+	}
+}
+
+@mixin loop-grid-columns($columns) {
+	@for $i from 1 through $columns {
+		@include make-grid-columns($i);
+		@include calculate-grid-column($i);
+	}
+}
+
+@mixin make-grid() {
+	@include loop-grid-columns($grid-columns);
+}

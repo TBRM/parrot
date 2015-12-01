@@ -1,0 +1,32 @@
+.container {
+	box-sizing: border-box;
+	padding: 0 12px;
+	margin: 0 auto;
+
+	@media (min-width: $screen-phablet) {
+		width: $container-phablet;
+	}
+
+	@media (min-width: $screen-tablet) {
+		width: $container-tablet;
+	}
+
+	@media (min-width: $screen-desktop) {
+		width: $container-desktop;
+	}
+}
+
+.container:after, .row:after {
+	display: table;
+	content: "";
+}
+
+.container:before, .container:after, .row:before, .row:after {
+	clear: both;
+}
+
+.row {
+	@include make-row;
+}
+
+@include make-grid;

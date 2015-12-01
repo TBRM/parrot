@@ -5,11 +5,14 @@
 
 // Global
 @import "parrot/variables";
+@import "parrot/mixins/_clearfix.scss";
+@import "parrot/mixins/_grid.scss";
 
 // Resets
 @import "parrot/normalize";
 
 // Core
+@import "parrot/scaffolding";
 @import "parrot/grid";
 
 // Components
