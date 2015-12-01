@@ -23,3 +23,19 @@
 @import "parrot/navbar";
 @import "parrot/buttons";
 @import "parrot/headers";
+
+.clearfix:before,
+.clearfix:after,
+.container:before,
+.container:after,
+.row:before,
+.row:after {
+	display: table;
+	content: "";
+}
+
+.clearfix:after,
+.container:after,
+.row:after {
+	clear: both;
+}
