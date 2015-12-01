@@ -1,0 +1,25 @@
+button, html input[type=button], input[type=reset], input[type=submit] {
+	-webkit-appearance: button;
+    cursor: pointer;
+}
+
+.parrot-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+	background-color: #fff;
+    border: 1px solid $hex-light-gray;
+    border-radius: 4px;
+	color: #333;
+}

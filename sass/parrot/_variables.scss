@@ -32,7 +32,7 @@ $hex-black:							#000000 !default;
 
 // ** default font settings
 $font-family-default:				"Helvetica Neue",Helvetica,Arial,sans-serif !default;
-$font-size-default:					1.0rem !default;
+$font-size-default:					0.8571rem !default;
 $font-color-default:				$hex-black !default;
 $line-height-default:				1.6 !default;
 
@@ -86,7 +86,7 @@ $container-desktop:					(1160px + $grid-gutter-width) !default;
 // Tables
 // ----------------------------------------
 // ## Columns, rows, padding, and more.
-$table-cell-padding:				4px 8px !default;
+$table-cell-padding:				8px 16px !default;
 
 // Headers
 // ----------------------------------------
