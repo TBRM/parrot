@@ -19,4 +19,15 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.hexacon-test { &:before { content: "\e900"; } }
+.hexacon-administration 	{ &:before { content: "\e900"; } }
+.hexacon-compose 			{ &:before { content: "\e901"; } }
+.hexacon-delete 			{ &:before { content: "\e902"; } }
+.hexacon-down-arrow 		{ &:before { content: "\e903"; } }
+.hexacon-help 				{ &:before { content: "\e904"; } }
+.hexacon-inbox 				{ &:before { content: "\e905"; } }
+.hexacon-left-arrow 		{ &:before { content: "\e906"; } }
+.hexacon-log-out 			{ &:before { content: "\e907"; } }
+.hexacon-logged-in 			{ &:before { content: "\e908"; } }
+//.hexacon-my-account 		{ &:before { content: "\e909"; } }
+.hexacon-right-arrow 		{ &:before { content: "\e90a"; } }
+.hexacon-up-arrow 			{ &:before { content: "\e90b"; } }
